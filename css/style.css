@@ -1,0 +1,139 @@
+/* BODY *************************************************/
+body{
+	background: url('../img/capa.png'),
+				url('../img/ruido.png'),
+				linear-gradient(50deg, #ff4169, #7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+
+}
+html,body,#home{
+	height: 100%;
+	overflow-x: hidden;
+}
+/* CABEÇALHO *******************************************/
+header{
+	padding: 1vh 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #9bf0e1;
+}
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+.divisor{
+	width:0.1vw;
+	background: white;
+	margin: 2vh 1.5vw;
+}
+/* CAPA ***********************************************/
+.capa{
+	text-align: center;
+	border-bottom: 4vh;
+	padding-bottom: 6vh;
+}
+.btn-custom{
+	color: white;
+	border-radius: 50vw;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+	padding: 2vh 3vw;
+}
+.btn-roxo{
+	background: #7c25f8;
+}
+.btn-roxo:hover{
+	background: #6207e3;
+	color: white;	
+}
+.btn-branco{
+	border: 0.1vw solid white;
+}
+.btn-branco:hover{
+	background-color: white;
+	color: black;	
+}
+@media (max-width: 575.98px){
+	.btn-custon{
+		font-size: 1em;
+	}
+}
+/* TIPOGRAFIA ********************************************/
+h1{
+	font-weight: 700;
+	font-size: 15vh;
+	letter-spacing: -0.05em;
+	margin-bottom:4vh;
+	margin-top: 20vh;
+	color: white;	
+}
+h2{
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+h3{
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+/* CONTEUDO ***********************************************/
+#conteudo{
+	background: white;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+#conteudo h2,h3{
+	color: #7c26f8;
+}
+
+/* 	RECURSOS ***********************************************/
+#recursos{
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+}
+#recursos h3{
+	color: #9bf0e1;
+}
+#recursos h2{
+	color: #fff;
+}
+#recursos p{
+	color: #fff;
+}
+.rotacionar{
+	transform: rotate(30deg);
+	padding-left: 8vw;
+}
+
+/* RODAPE ********************************************************/
+footer{
+	background: #000;
+	padding: 6vh 0 5vh 0;
+	position: relative;
+}
+footer ul{
+	list-style: none;
+}
+footer h4{
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+footer .navbar-nav a{
+	color: #fff;
+	font-size: 0.8em;
+	text-decoration: none;
+}
+footer .navbar-nav a:hover{
+	color: #9bf0e1;
+}
+footer ul li{
+	float: right;
+	margin: 0 0.5vw;
+}
