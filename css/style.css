@@ -57,11 +57,7 @@ header{
 	background-color: white;
 	color: black;	
 }
-@media (max-width: 575.98px){
-	.btn-custon{
-		font-size: 1em;
-	}
-}
+
 /* TIPOGRAFIA ********************************************/
 h1{
 	font-weight: 700;
@@ -136,4 +132,21 @@ footer .navbar-nav a:hover{
 footer ul li{
 	float: right;
 	margin: 0 0.5vw;
+}
+.icones-social{
+		float: left;
+}
+
+/* RESPONSIVO ******************************************************/
+@media (max-width: 575.98px){
+	.btn-custon{
+		font-size: 1em;
+	}
+	.icones-social{
+		margin-top: 5vh;
+		float: none;
+	}
+	.rodape{
+		margin-bottom: 4vh;
+	}
 }
